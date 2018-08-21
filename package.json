@@ -1,8 +1,8 @@
 {
-  "name": "generated-theme",
-  "displayName": "Generated Theme",
-  "publisher": "your-name",
-  "description": "A generated theme for Visual Studio Code",
+  "name": "dell-clarity",
+  "displayName": "Dell Clarity",
+  "publisher": "Max McKinney",
+  "description": "A theme for VS Code based on Dell Clarity",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
@@ -18,7 +18,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Generated theme",
+        "label": "Dell Clarity",
         "uiTheme": "vs-dark",
         "path": "./theme.json"
       }
