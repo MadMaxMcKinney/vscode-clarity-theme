@@ -33,7 +33,7 @@ const colorSet: IColorSet = {
     color4: colors.yellow
   },
   syntax: {
-	  comment: colors.darkGray
+	  comment: colors.darkGray,
   },
   overrides: {
 		'editor.lineHighlightBackground': '#151515',
