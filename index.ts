@@ -110,5 +110,5 @@ const colorSetLight: IColorSet = {
 	}
   };
 
-generateTheme(themeName, colorSet, path.join(__dirname, 'theme.json'));
-generateTheme(themeName + " Light", colorSetLight, path.join(__dirname, 'light-theme.json'));
+generateTheme(themeName + " Dark", colorSet, path.join(__dirname, 'dark-theme.json'));
+generateTheme(themeName, colorSetLight, path.join(__dirname, 'theme.json'));

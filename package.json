@@ -18,14 +18,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dell Clarity",
+        "label": "Dell Clarity Dark",
         "uiTheme": "vs-dark",
-        "path": "./theme.json"
+        "path": "./dark-theme.json"
 	  },
 	  {
-        "label": "Dell Clarity Light",
+        "label": "Dell Clarity",
         "uiTheme": "vs",
-        "path": "./light-theme.json"
+        "path": "./theme.json"
       }
     ]
   },
