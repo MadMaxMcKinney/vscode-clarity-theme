@@ -1,10 +1,10 @@
 {
-  "name": "dell-clarity",
-  "displayName": "Dell Clarity",
+  "name": "clarity",
+  "displayName": "Clarity",
   "publisher": "Max McKinney",
-  "description": "A theme for VS Code based on Dell Clarity",
-  "version": "0.0.1",
-  "license": "MIT",
+  "description": "A theme for VS Code based on the Clarity design language",
+  "version": "1.0.0",
+  "license": "GNU GPL-V3.0",
   "scripts": {
     "prestart": "tsc index.ts",
     "start": "node index.js"
@@ -18,12 +18,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dell Clarity Dark",
+        "label": "Clarity Dark",
         "uiTheme": "vs-dark",
         "path": "./dark-theme.json"
 	  },
 	  {
-        "label": "Dell Clarity",
+        "label": "Clarity",
         "uiTheme": "vs",
         "path": "./theme.json"
       }

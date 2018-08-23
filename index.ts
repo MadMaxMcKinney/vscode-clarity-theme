@@ -1,7 +1,7 @@
 import * as path from 'path';
 import { generateTheme, IColorSet } from 'vscode-theme-generator';
 
-const themeName = 'Dell Clarity';
+const themeName = 'Clarity';
 const colors = {
   black: '#111111',
   white: '#FFFFFF',
