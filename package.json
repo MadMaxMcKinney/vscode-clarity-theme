@@ -1,8 +1,9 @@
 {
   "name": "clarity",
   "displayName": "Clarity",
-  "publisher": "Max McKinney",
-  "description": "A theme for VS Code based on the Clarity design language",
+  "author": "Max McKinney <hello@maxmckinney.com>",
+  "publisher": "maxmckinney",
+  "description": "A theme for Visual Studio Code based on the Clarity design language",
   "version": "1.0.0",
   "license": "GNU GPL-V3.0",
   "scripts": {
@@ -12,9 +13,17 @@
   "engines": {
     "vscode": "^1.11.0"
   },
+  "icon": "icon.png",
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme", "dark", "light", "cool", "blue"
+  ],
+  "galleryBanner": {
+	"color": "#151719",
+	"theme": "dark"
+   },
   "contributes": {
     "themes": [
       {
@@ -29,6 +38,11 @@
       }
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaxMcKinney/vscode-clarity-theme"
+  },
+  "homepage": "https://github.com/MaxMcKinney/vscode-clarity-theme",
   "devDependencies": {
     "@types/node": "^7.0.10",
     "typescript": "^2.2.1",
